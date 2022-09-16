@@ -25,15 +25,16 @@ int main(void)
 	{
 		while (n % i == 0)
 		{
-		max = i;
-		n = n / i;
+			max = i;
+			n = n / i;
+		}
 	}
-}
 
-if (n > 2)
-	max = n;
+	if (n > 2)
+		max = n;
 
 	printf("%ld\n", max);
 
 	return (0);
 }
+	
